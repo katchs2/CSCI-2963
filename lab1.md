@@ -1,4 +1,4 @@
-### Reading Assignments
+### ### Part C Reading Assignments
 
 ### 10 Criteria of Open Source Definition 
 http://opensource.org/osd and understand why they are important.
