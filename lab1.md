@@ -27,6 +27,25 @@ I completed regexone Lessons 1-7. Below is the screen shot for Lesson 7.
 ![katchs2](images/regex2_5.png)
 
 ### f. Blocky
+![katchs2](images/blockly_final.png)
+while (notDone()) {
+  if (isPathLeft()) {
+    if (isPathRight()) {
+      if (isPathForward()) {
+        turnRight();
+      } else {
+        turnLeft();
+      }
+    } else {
+      turnLeft();
+    }
+  } else {
+    if (isPathRight()) {
+      turnRight();
+    }
+  }
+  moveForward();
+}
 
 ### g. Reflection
 I am interested in creating open source software for students at RPI. I have been thinking about creating something that involves maps. A small scale application of mapping would be using the campus map of RPI. I think first year students would find it helpful to have an online method of finding where their new classrooms are. This app would have a database of the locations of all the classrooms, labs, and lecture halls on campus and would allow new students to figure out what building/ floor their classes are in.
