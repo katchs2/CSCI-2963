@@ -32,6 +32,7 @@ https://choosealicense.com/licenses/mit/
 https://github.com/rcos/Observatory | Yes | Two Clause BSD License
 https://github.com/jzblee/tally | Yes | MIT License
 http://git.polaritech.com/Solum/ | Yes | MIT License
-https://github.com/Submitty/Submitty | Yes | BSD 3-Clause Licensef
+https://github.com/Submitty/Submitty | Yes | BSD 3-Clause License
+https://github.com/sailfish-team/sailfish | No | N/A
 
 
