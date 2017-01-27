@@ -28,10 +28,10 @@ https://choosealicense.com/licenses/mit/
 7. GPL/ LGPL/ BSD
 GPL license is best for developers and for the common good because its only restriction is that the modificaions made must track with the source code and its original version, installation, and license must be included. It is easy to use and modify from a legal point of view. LGPL is best for the common good because it almost exclusively applies to libraries. "Derivatives works (including modifications or anything statically linked to the library) can only be redistributed under LGPL, but applications that use the library don't have to be." (tldrlegal). Apache/BSD is best for companies because it requires the inclusion of the company's trademark in the license.
 
-9. My project
+9. My project idea
 The project I would like to work on in this course is creating a more interactive campus map with data about locations of classrooms and lecture halls. By either making or using a databse in PostgreSQL or SQL of all the classrooms at RPI and what floor they are on (maybe in reference from the entry floor). The users of my app will be RPI students, specifically freshmen and who need to learn where classrooms on campus are and upperclassmen at the beginning of the semester. I will use the MIT license because I want to give permission to others to collaborate with me on this project.
 
-10.
+10. Chart
 Website | License Present | License
 ---------|:----------|:-------
 https://github.com/rcos/Observatory | Yes | Two Clause BSD License
