@@ -3,4 +3,4 @@ https://github.com/katchs2/lab3part1.git
 
 
 gitk --all
-![Samm](images/gitk-all.png)
+![Samm](images/gitk--all.png)
