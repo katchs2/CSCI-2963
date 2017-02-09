@@ -12,4 +12,5 @@ Moorthy said it was okay that my git would not generate a graph on the command l
 ![Samm](images/gitbranching3.png)
 ![Samm](images/gitbranching4.png)
 
-
+### Part 3
+https://github.com/katchs2/campusmap/blob/master/references.md
