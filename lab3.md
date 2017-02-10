@@ -18,4 +18,5 @@ https://github.com/katchs2/campusmap/blob/master/references.md
 
 Having trouble linking campus map back to git hub.
 
-No permission to do Part 3: 1, 5, 6?
+Part 3 Pull request:
+https://github.com/mskmoorthy/Spring2017PullReq/pull/33
