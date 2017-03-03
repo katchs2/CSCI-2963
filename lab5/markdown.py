@@ -27,3 +27,56 @@ for line in fileinput.input():
   line = convertStrong(line)
   line = convertEm(line)
   print '<p>' + line + '</p>',
+  
+  
+  def convertH1(line):
+  if line[:1] == '#':
+    return '<h1>'+line[1:]+'</h1>'
+  else:
+    return line
+
+def convertH2(line):
+  if line[:2] == '##':
+    return '<h2>'+line[2:]+'</h2>'
+  else:
+    return line
+
+def convertH3(line):
+  if line[:3] == '###':
+    return '<h3>'+line[3:]+'</h3>'
+  else:
+    return line
+
+def block(line, bq):
+  if line[0] == '>':
+    if bq == False:
+      return '<blockquote>'+line[1:]
+      
+    else:
+      return line[1:]
+      
+  else:
+    if bq == True:
+      return '</blockquote>'+line
+      
+    else:
+      return line
+    
+   
+bqmode = False
+for line in fileinput.input():
+  line = line.rstrip() 
+  line = convertStrong(line)
+  line = convertEm(line)
+  # test headings in reverse order
+  line = convertH3(line)
+  line = convertH2(line)
+  line = convertH1(line)
+  line = block(line, bqmode)
+  if '<blockquote>' in line:
+    bqmode = True
+  if '</blockquote>' in line:
+    bqmode = False
+    
+  print '<p>' + line + '</p>',
+
