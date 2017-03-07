@@ -37,13 +37,13 @@ class TestMarkdownPy(unittest.TestCase):
                 '<p><strong>this should be wrapped in strong tags</strong></p>')
 
         
-        def test_h1(self):
+    def test_h1(self):
         self.assertEqual(run_markdown('#this should be a big heading'),
                          '<p><h1>this should be a big heading</h1></p>')
 
     def test_h2(self):
-        self.assertEqual(run_markdown('##this should be a decent heading'),
-                         '<p><h2>this should be a decent heading</h2></p>')
+        self.assertEqual(run_markdown('##this should be a medium heading'),
+                         '<p><h2>this should be a medium heading</h2></p>')
 
     def test_h3(self):
         self.assertEqual(run_markdown('###this should be a small heading'),

@@ -30,10 +30,10 @@ for line in fileinput.input():
   
   
   def convertH1(line):
-  if line[:1] == '#':
-    return '<h1>'+line[1:]+'</h1>'
-  else:
-    return line
+    if line[:1] == '#':
+      return '<h1>'+line[1:]+'</h1>'
+    else:
+      return line
 
 def convertH2(line):
   if line[:2] == '##':
