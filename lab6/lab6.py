@@ -74,6 +74,8 @@ def words_graph(word_len,alt):
     fh.close()    
     return generate_graph(words,alt)
 
+
+## my code
 def solve(words, alt=False):
     G=words_graph(len(words[0][0]),alt)
     for (source,target) in words:
@@ -85,12 +87,13 @@ def solve(words, alt=False):
         except nx.NetworkXNoPath:
             print("None")
             
-
+## words with 5 letters
 words5 = [('chaos','order'),
           ('nodes','graph'),
           ('moron','smart'),
           ('pound','marks')]
 
+## words with 4 letters
 words4 = [('cold','warm'),
           ('love','hate')]
 
