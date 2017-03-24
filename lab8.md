@@ -9,6 +9,9 @@
 We made 3 changes on this page:
 https://www.freebsd.org/cgi/man.cgi?query=ral&apropos=0&sektion=0&manpath=FreeBSD+11.0-RELEASE+and+Ports&arch=default&format=html
 
+and 1 change on this page:
+https://www.freebsd.org/cgi/man.cgi?query=wlan&apropos=0&sektion=4&manpath=FreeBSD+11.0-RELEASE+and+Ports&arch=default&format=html
+
 #### We submitted changes for changing the word "an" to the word "a" in one sentence, 
 #### the word "adapters" to the word "adapter," 
 #### and two sentence restructures.
