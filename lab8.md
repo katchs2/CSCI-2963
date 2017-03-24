@@ -12,6 +12,10 @@ https://www.freebsd.org/cgi/man.cgi?query=ral&apropos=0&sektion=0&manpath=FreeBS
 and 1 change on this page:
 https://www.freebsd.org/cgi/man.cgi?query=wlan&apropos=0&sektion=4&manpath=FreeBSD+11.0-RELEASE+and+Ports&arch=default&format=html
 
+#### Links:
+https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=218070
+
+
 #### We submitted changes for changing the word "an" to the word "a" in one sentence, 
 #### the word "adapters" to the word "adapter," 
 #### and two sentence restructures.
