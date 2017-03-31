@@ -1,0 +1,20 @@
+# car_placed_door<-sample(1:3,1000,replace=TRUE)
+# car_selection_door<-sample(1:3,1000,replace=TRUE)
+# sum(car_placed_door==car_selection_door)
+col_names <- names(elect)
+elect[,col_names] <- lapply(elect[,col_names] , factor)
+library(arules)
+rules.all <- apriori(elect)
+rules <- apriori(elect, control = list(verbose=F),
+                 parameter = list(minlen=2, supp=0.005, conf=0.8))
+source("http://bioconductor.org/biocLite.R")
+biocLite("Rgraphviz")
+rules.sorted <- sort(rules, by="confidence")
+inspect(rules.sorted)
+library(arulesViz)
+plot(elect.sorted)
+max(elect$TotalVote)
+elect[elect$TotalVote==max(elect$TotalVote),]
+aelect$BushPct = as.numeric(elect$BushPct)
+elect$KerryPct = as.numeric(elect$KerryPct)
+win = elect[elect$BushPct > elect$KerryPct,]
