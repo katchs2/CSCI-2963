@@ -25,3 +25,4 @@ plot(rules.all, method="grouped")
 plot(rules.all, method="graph")
 net.bg <- barabasi.game(80)
 plot(rules.all, method="paracoord", control=list(reorder=TRUE))
+
